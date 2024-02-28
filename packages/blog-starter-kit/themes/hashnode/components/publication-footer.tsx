@@ -64,10 +64,10 @@ function PublicationFooter(props: any) {
               className="mb-4 flex flex-row items-center rounded-lg border border-slate-300 bg-white p-3 font-heading font-bold tracking-wide text-slate-600 transition-colors duration-75 hover:border-slate-400 hover:text-slate-900 dark:border-slate-800 dark:bg-black dark:text-slate-300 dark:hover:border-slate-500 dark:hover:text-white"
               href="https://hashnode.com/onboard?unlock-blog=true&source=blog-footer"
             >
-              <span className="mr-2 block text-blue-600">
+              {/* <span className="mr-2 block text-blue-600">
                 <HashnodeLogoIconV2 className="h-6 w-6 fill-current" />
               </span>
-              <span>Publish with Hashnode</span>
+              <span>Publish with Hashnode</span> */}
             </Link>
             <p className="text-sm text-slate-600 dark:text-slate-300">
               Powered by{' '}
