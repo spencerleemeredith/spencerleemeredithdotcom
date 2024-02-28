@@ -61,7 +61,6 @@ const PublicationSearch = (props: Props) => {
     query: SearchPostsOfPublicationDocument,
     variables: {
       first: searchKey.length > 0 ? 10 : 0,
-      after,
       filter: {
         publicationId: publication.id,
         query: searchKey,
