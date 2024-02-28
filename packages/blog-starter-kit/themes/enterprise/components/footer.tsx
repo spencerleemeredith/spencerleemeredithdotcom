@@ -27,104 +27,104 @@ export const Footer = () => {
 				<div className="grid w-full grid-cols-3 gap-5 md:grid-cols-6 lg:grid-cols-5">
 					<div className="col-span-1 grid grid-cols-4 gap-5 md:col-span-4 lg:col-span-3">
 						<div className="col-span-full md:col-span-2 lg:col-span-1">
-							<p className="mb-2 font-semibold text-slate-600 dark:text-neutral-200">
+							{/* <p className="mb-2 font-semibold text-slate-600 dark:text-neutral-200">
 								Stay in touch
-							</p>
+							</p> */}
 							<ul className="flex flex-col gap-1 text-slate-700 dark:text-neutral-300">
 								<li>
-									<a href="#" className="hover:underline">
+									{/* <a href="#" className="hover:underline">
 										Contact us
-									</a>
+									</a> */}
 								</li>
 								<li>
-									<a href="#" className="hover:underline">
+									{/* <a href="#" className="hover:underline">
 										Book a demo
-									</a>
+									</a> */}
 								</li>
 								<li>
-									<a href="#" className="hover:underline">
+									{/* <a href="#" className="hover:underline">
 										Newsletter
-									</a>
+									</a> */}
 								</li>
 								<li>
-									<a href="#" className="hover:underline">
+									{/* <a href="#" className="hover:underline">
 										Slack
-									</a>
+									</a> */}
 								</li>
 							</ul>
 						</div>
 						<div className="col-span-full md:col-span-2 lg:col-span-1">
-							<p className="mb-2 font-semibold text-slate-600 dark:text-neutral-200">Resources</p>
+							{/* <p className="mb-2 font-semibold text-slate-600 dark:text-neutral-200">Resources</p> */}
 							<ul className="flex flex-col gap-1 text-slate-700 dark:text-neutral-300">
 								<li>
-									<a href="#" className="hover:underline">
+									{/* <a href="#" className="hover:underline">
 										Community
-									</a>
+									</a> */}
 								</li>
 								<li>
-									<a href="#" className="hover:underline">
+									{/* <a href="#" className="hover:underline">
 										Use Cases
-									</a>
+									</a> */}
 								</li>
 								<li>
-									<a href="#" className="hover:underline">
+									{/* <a href="#" className="hover:underline">
 										Source Code
-									</a>
+									</a> */}
 								</li>
 								<li>
-									<a href="#" className="hover:underline">
+									{/* <a href="#" className="hover:underline">
 										Blog
-									</a>
+									</a> */}
 								</li>
 							</ul>
 						</div>
 						<div className="col-span-full md:col-span-2 lg:col-span-1">
-							<p className="mb-2 font-semibold text-slate-600 dark:text-neutral-200">Product</p>
+							{/* <p className="mb-2 font-semibold text-slate-600 dark:text-neutral-200">Product</p> */}
 							<ul className="flex flex-col gap-1 text-slate-700 dark:text-neutral-300">
 								<li>
-									<a href="#" className="hover:underline">
+									{/* <a href="#" className="hover:underline">
 										Pricing
-									</a>
+									</a> */}
 								</li>
 								<li>
-									<a href="#" className="hover:underline">
+									{/* <a href="#" className="hover:underline">
 										Documentation
-									</a>
+									</a> */}
 								</li>
 								<li>
-									<a href="#" className="hover:underline">
+									{/* <a href="#" className="hover:underline">
 										Integrations
-									</a>
+									</a> */}
 								</li>
 								<li>
-									<a href="#" className="hover:underline">
+									{/* <a href="#" className="hover:underline">
 										Support
-									</a>
+									</a> */}
 								</li>
 							</ul>
 						</div>
 						<div className="col-span-1">
-							<p className="mb-2 font-semibold text-slate-600 dark:text-neutral-200">Other links</p>
+							{/* <p className="mb-2 font-semibold text-slate-600 dark:text-neutral-200">Other links</p> */}
 							<ul className="flex flex-col gap-1 text-slate-700 dark:text-neutral-300">
 								<li>
-									<a href="#" className="hover:underline">
+									{/* <a href="#" className="hover:underline">
 										Events
-									</a>
+									</a> */}
 								</li>
 								<li>
-									<a href="#" className="hover:underline">
+									{/* <a href="#" className="hover:underline">
 										Careers
-									</a>
+									</a> */}
 								</li>
 								<li>
-									<a href="#" className="hover:underline">
+									{/* <a href="#" className="hover:underline">
 										Newsroom
-									</a>
+									</a> */}
 								</li>
 								<li>
-									<a href="#" className="hover:underline">
+									{/* <a href="#" className="hover:underline">
 										About us
-									</a>
+									</a> */}
 								</li>
 							</ul>
 						</div>
