@@ -1607,6 +1607,26 @@ type PublicationLinks {
   youtube: String
 }
 
+"""Contains the publication member information."""
+type PublicationMember implements Node {
+  """The ID of the publication member."""
+  id: ID!
+  """The role of the user in the publication."""
+  role: PublicationMemberRole!
+  """The user who is a member of the publication."""
+  user: User
+}
+
+"""The role of the user in the publication."""
+enum PublicationMemberRole {
+  """The user is an admin of the publication."""
+  ADMIN
+  """The user is a owner of the publication."""
+  AUTHOR
+  """The user is a member of the publication."""
+  CONTRIBUTOR
+}
+
 """Contains the publication's navbar items."""
 type PublicationNavbarItem {
   """The unique identifier of the navbar item."""

@@ -1722,6 +1722,27 @@ export type PublicationLinks = {
   youtube?: Maybe<Scalars['String']['output']>;
 };
 
+/** Contains the publication member information. */
+export type PublicationMember = Node & {
+  __typename?: 'PublicationMember';
+  /** The ID of the publication member. */
+  id: Scalars['ID']['output'];
+  /** The role of the user in the publication. */
+  role: PublicationMemberRole;
+  /** The user who is a member of the publication. */
+  user?: Maybe<User>;
+};
+
+/** The role of the user in the publication. */
+export enum PublicationMemberRole {
+  /** The user is an admin of the publication. */
+  Admin = 'ADMIN',
+  /** The user is a owner of the publication. */
+  Author = 'AUTHOR',
+  /** The user is a member of the publication. */
+  Contributor = 'CONTRIBUTOR'
+}
+
 /** Contains the publication's navbar items. */
 export type PublicationNavbarItem = {
   __typename?: 'PublicationNavbarItem';
